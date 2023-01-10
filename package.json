@@ -1,0 +1,40 @@
+{
+  "name": "idbpromise-hook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+{
+  "name": "idbpromise-hook",
+  "version": "1.0.1",
+  "description": "IndexDB hook for React, indexDB is another way to store data in the browser",
+  "keywords": [
+    "hooks",
+    "react",
+    "useFetch",
+    "awesome hooks",
+    "react hook",
+    "fetch",
+    "api"
+  ],
+  "main": "useIdbpromise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raul Jimenez",
+  "license": "ISC",
+   "peerDependencies": {
+    "react": "^18.0.0 || ^17.0.0 || ^16.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jimenezraul/useFetch"
+  }
+}
