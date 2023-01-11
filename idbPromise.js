@@ -27,7 +27,7 @@ class IdbPromise {
 
         // create object store for each type of data and set "primary" key index to be the `id` of the data
         objectArray.forEach((object) => {
-          db.createObjectStore(object.name, { keyPath: 'id' });
+          db.createObjectStore(object.name, { keyPath: object.oid });
         });
       };
 

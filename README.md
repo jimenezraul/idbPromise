@@ -2,7 +2,7 @@
 
 ## What is it?
 
-This is a IndexedDB for React. IndexedDB is a browser API that allows you to store data in the browser. It is a great way to store data that you want to persist between sessions. It is also a great way to store data that you want to use offline.
+IndexedDB package, is another way to store data in the browser using the IndexedDB API. This package is a wrapper for the IndexedDB API, it is a promise based API that makes it easier to use IndexedDB. It is a great way to store data that you want to persist when the user closes the browser or refreshes the page. It is also a great way to store data when the user is offline.
 
 ## How do I use it?
 
@@ -24,6 +24,7 @@ import { IdbPromise } from 'indexeddbpromise';
 export const idb = new IdbPromise('store', [
   // store is the name of the database in the browser that will be created, you can change it to whatever you want.
   {
+    oid: "id", // id is the name of the primary key, you can change it to whatever you want.
     name: 'products', // name of the Category that will be created in the browser storage. You can add as many as you want and change the name to whatever you want.
   },
 ]);
