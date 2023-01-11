@@ -1,6 +1,6 @@
 {
   "name": "indexeddbpromise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "IndexedDB for React, indexedDB is another way to store data in the browser",
   "keywords": [
     "react",

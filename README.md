@@ -42,7 +42,7 @@ Now, you can import the `idb` object into any component that you want to use it 
 import { useState, useEffect } from 'react';
 import { idb } from '../utils/helper';
 
-const function componentOne{
+function componentOne() {
   const storage = idb;
   const [products, setProducts] = useState([]);
 
@@ -73,7 +73,7 @@ const function componentOne{
     // set products to newProducts
     setProducts(newItem);
   };
-  
+
   return (
     <div className='App'>
       <button onClick={addItem}>add product</button>
@@ -96,5 +96,5 @@ const function componentOne{
 If you would like to contribute to this project, please fork the repo and submit a pull request. If you have any questions, please feel free to reach out to me at [email](mailto:jimenezraul1981@gmail.com).
 
 ## License
- 
+
 ISC License (ISC)
