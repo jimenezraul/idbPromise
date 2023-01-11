@@ -1,6 +1,6 @@
 {
   "name": "indexeddbpromise",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "IndexedDB for React, indexedDB is another way to store data in the browser",
   "keywords": [
     "react",
@@ -22,6 +22,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jimenezraul/idbPromise-hook"
+    "url": "https://github.com/jimenezraul/idbPromise"
   }
 }
