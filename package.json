@@ -1,6 +1,6 @@
 {
   "name": "indexeddbpromise",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "IndexedDB package, is another way to store data in the browser using the IndexedDB API. This package is a wrapper for the IndexedDB API, it is a promise based API that makes it easier to use IndexedDB.",
   "keywords": [
     "react",

@@ -30,7 +30,7 @@ export const idb = new IdbPromise('store', [
 ]);
 ```
 
-Now, you can import the `idb` object into any component that you want to use it in. You can use it to add, get, and delete data from the database. To add or update you will use the `put` method. To get data you will use the `get` method. To delete data you will use the `delete` method.
+Now, you can import the `idb` object into any component that you want to use it in. You can use it to add, update, get and delete data from the browser database. To add or update you will use the `put` method. To get data you will use the `get` method. To delete data you will use the `delete` method.
 
 ```js
 import { useState, useEffect } from 'react';
