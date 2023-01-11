@@ -1,19 +1,6 @@
 {
   "name": "idbpromise-hook",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
-}
-
-{
-  "name": "idbpromise-hook",
-  "version": "1.0.0",
   "description": "IndexedDB hook for React, indexedDB is another way to store data in the browser",
   "keywords": [
     "hooks",
@@ -24,7 +11,7 @@
     "idb promise",
     "api",
     "indexDB",
-    "indexedDB hook",
+    "indexedDB hook"
   ],
   "main": "useIdbpromise.js",
   "scripts": {

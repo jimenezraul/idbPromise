@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
-import { idbPromise } from "../utils/helpers";
 
-const useIdbPromise = (table, method, params) => {
+const useIdbPromise = (idb, table, method, params) => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -9,7 +8,8 @@ const useIdbPromise = (table, method, params) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await idbPromise(table, method, params);
+        const response = await idb.idbPromise(table, method, params);
+ 
         let item;
         if (response.length > 0) {
           item = response[0];
@@ -17,13 +17,14 @@ const useIdbPromise = (table, method, params) => {
         setData(item);
         setLoading(false);
       } catch (error) {
+        console.log(error)
         setError(error);
         setLoading(false);
       }
     };
 
     fetchData();
-  }, [table, method, params]);
+  }, [table, method, params, idb]);
 
   return { data, loading, error };
 };
