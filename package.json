@@ -1,19 +1,17 @@
 {
-  "name": "idbpromise-hook",
+  "name": "indexeddbpromise",
   "version": "1.0.0",
-  "description": "IndexedDB hook for React, indexedDB is another way to store data in the browser",
+  "description": "IndexedDB for React, indexedDB is another way to store data in the browser",
   "keywords": [
-    "hooks",
     "react",
     "idb",
-    "awesome hooks",
-    "react hook",
     "idb promise",
     "api",
     "indexDB",
-    "indexedDB hook"
+    "indexeddbpromise",
+    "browser storage"
   ],
-  "main": "useIdbpromise.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +22,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jimenezraul/useFetch"
+    "url": "https://github.com/jimenezraul/idbPromise-hook"
   }
 }

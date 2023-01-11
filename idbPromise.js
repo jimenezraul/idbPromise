@@ -78,4 +78,4 @@ class IdbPromise {
   }
 }
 
-module.exports = IdbPromise;
+export default IdbPromise;
