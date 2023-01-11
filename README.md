@@ -22,17 +22,10 @@ Create a new directory in the react app inside of src folder called `utils`. Ins
 import { IdbPromise } from 'indexeddbpromise';
 
 export const idb = new IdbPromise('store', [
-  // store is the name of the database that will be created you can change it to whatever you want.
+  // store is the name of the database in the browser that will be created, you can change it to whatever you want.
   {
-    name: 'products', // name of the object store that will be created, you can change it to whatever category you want.
+    name: 'products', // name of the Category that will be created in the browser storage. You can add as many as you want and change the name to whatever you want.
   },
-  {
-    name: 'categories',
-  },
-  {
-    name: 'cart',
-  },
-  // you can add as many object stores as you want.
 ]);
 ```
 
@@ -91,9 +84,9 @@ function componentOne() {
 }
 ```
 
-## How do I contribute?
+## Questions
 
-If you would like to contribute to this project, please fork the repo and submit a pull request. If you have any questions, please feel free to reach out to me at [email](mailto:jimenezraul1981@gmail.com).
+[email](mailto:jimenezraul1981@gmail.com).
 
 ## License
 
