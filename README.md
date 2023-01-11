@@ -8,6 +8,12 @@ This is a IndexedDB for React. IndexedDB is a browser API that allows you to sto
 
 ### Installation
 
+To install this package, run the following command in your terminal:
+
+```bash
+npm install indexeddbpromise
+```
+
 ### Usage
 
 Create a new directory in the react app inside of src folder called `utils`. Inside of that directory, create a new file called `helper.js`. Inside of that file, paste the following code:
