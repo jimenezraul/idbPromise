@@ -1,3 +1,3 @@
-import IdbPromise from "./idbPromise";
+import IdbPromise from "./src/idbPromise";
 
 export { IdbPromise };
