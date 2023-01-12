@@ -46,7 +46,7 @@ function componentOne() {
     });
   }, [storage]);
 
-  const addItem = () => {
+  const addItemHandler = () => {
     storage
       .idbPromise('products', 'put', {
         id: products.length + 1,
@@ -70,7 +70,7 @@ function componentOne() {
 
   return (
     <div className='App'>
-      <button onClick={addItem}>add product</button>
+      <button onClick={addItemHandler}>add product</button>
       {products.map((item) => (
         <div key={item.id}>
           <h2>{item.name}</h2>
